@@ -28,9 +28,14 @@ public class BulletController : MonoBehaviour {
         {
             Destroy(other.gameObject);
             Destroy(gameObject);
+            PlayerScore.playerScore++;
         }
         else if (other.tag == "Base")
+        {
+            PlayerScore.playerScore =+ 10;
             Destroy(gameObject);
+        }
+            
     }
 
     // Update is called once per frame

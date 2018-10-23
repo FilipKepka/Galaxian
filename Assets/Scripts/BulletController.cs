@@ -28,11 +28,11 @@ public class BulletController : MonoBehaviour {
         {
             Destroy(other.gameObject);
             Destroy(gameObject);
-            PlayerScore.playerScore++;
+            PlayerScore.playerScore += 10;
         }
         else if (other.tag == "Base")
         {
-            PlayerScore.playerScore =+ 10;
+            //PlayerScore.playerScore =+ 10;
             Destroy(gameObject);
         }
             

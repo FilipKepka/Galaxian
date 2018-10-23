@@ -358,6 +358,33 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4384602789933670, guid: 672b4c9505585474784c57134cf0bc21,
     type: 2}
   m_PrefabInternal: {fileID: 44734583}
+--- !u!1 &135419686 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1686317130450460, guid: b9f27b3898977af40a609c4feae80d7e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1453942410}
+--- !u!114 &135419690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 135419686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e13f3145fcf4af4b9aadbd59dd2ea0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &135419691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 135419686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd071e417e72e2a49967c40e7752738f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &135724498
 Prefab:
   m_ObjectHideFlags: 0
@@ -2589,6 +2616,26 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114213457983335736, guid: b9f27b3898977af40a609c4feae80d7e,
+        type: 2}
+      propertyPath: m_FontData.m_Alignment
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 224124618526854046, guid: b9f27b3898977af40a609c4feae80d7e,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -350.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 224124618526854046, guid: b9f27b3898977af40a609c4feae80d7e,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -221.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 114525161710639742, guid: b9f27b3898977af40a609c4feae80d7e,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b9f27b3898977af40a609c4feae80d7e, type: 2}
   m_IsPrefabAsset: 0
@@ -2830,6 +2877,22 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 672b4c9505585474784c57134cf0bc21, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1 &1783531598 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1240000053726944, guid: b9f27b3898977af40a609c4feae80d7e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1453942410}
+--- !u!114 &1783531602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1783531598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e13f3145fcf4af4b9aadbd59dd2ea0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1804833679
 Prefab:
   m_ObjectHideFlags: 0
@@ -3110,7 +3173,7 @@ Prefab:
     - target: {fileID: 114519565709746982, guid: adf323be24e2a2c4b977f1c4e098a61b,
         type: 2}
       propertyPath: fireRate
-      value: 0.9
+      value: 0.8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: adf323be24e2a2c4b977f1c4e098a61b, type: 2}
@@ -3423,6 +3486,22 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 672b4c9505585474784c57134cf0bc21, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1 &2113432218 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1149788304876738, guid: b9f27b3898977af40a609c4feae80d7e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1453942410}
+--- !u!114 &2113432222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2113432218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a676f9f20682ae4c8871b753120ec96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &2127880430 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4384602789933670, guid: 672b4c9505585474784c57134cf0bc21,

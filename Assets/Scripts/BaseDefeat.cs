@@ -15,7 +15,7 @@ public class BaseDefeat : MonoBehaviour {
 	void Update () {
 		if(playerBase.childCount == 0)
         {
-            GameOver.isPlayerDead = true;
+            //GameOver.isPlayerDead = true;
         }
 	}
 }

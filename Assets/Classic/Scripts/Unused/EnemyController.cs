@@ -7,6 +7,8 @@ public class EnemyController : MonoBehaviour {
     private Transform enemyHolder;
     public float speed;
 
+    public GameObject singleEnemy;
+    public List<Transform> enemyList;
     public GameObject shot;
     public Text winText;
     public float fireRate = 0.997F;
@@ -16,6 +18,7 @@ public class EnemyController : MonoBehaviour {
         winText.enabled = false;
         InvokeRepeating("MoveEnemy", 0.1f, 0.3f);
         enemyHolder = GetComponent<Transform>();
+        enemyList.Add(Instantiate(singleEnemy.transform, new Vector3(-6, 8), new Quaternion()));
 	}
 	
 	// Update is called once per frame
@@ -27,7 +30,7 @@ public class EnemyController : MonoBehaviour {
     {
         enemyHolder.position += Vector3.right * speed;
 
-        foreach (Transform enemy in enemyHolder)
+        foreach (Transform enemy in enemyList)
         {
             if(enemy.position.x < - 10.5 || enemy.position.x > 10.5)
             {
@@ -48,13 +51,13 @@ public class EnemyController : MonoBehaviour {
             }
         }
 
-        if(enemyHolder.childCount == 1)
+        if(enemyList.Count == 1)
         {
             CancelInvoke();
             InvokeRepeating("MoveEnemy", 0.1f, 0.25f);
         }
 
-        if(enemyHolder.childCount == 0)
+        if(enemyList.Count == 0)
         {
             winText.enabled = true;
         }

@@ -26,6 +26,7 @@ public class BulletController : MonoBehaviour {
     {
         if (other.tag == "Enemy")
         {
+            EnemyHolder.enemyList.Remove(other.transform);
             Destroy(other.gameObject);
             Destroy(gameObject);
             PlayerScore.playerScore += 10;
